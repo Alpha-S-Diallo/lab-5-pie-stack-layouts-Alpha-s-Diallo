@@ -43,15 +43,15 @@ const drawStackedBars = (data) => {
 
   annotatedData.forEach(serie => {
     innerChart
-      .selectAll(`.bar-${series.key}`)
+      .selectAll(`.bar-${serie.key}`)
       .data(serie)
       .join("rect")
-        .attr("class", d => `bar-${series.key}`)
+        .attr("class", d => `bar-${serie.key}`)
         .attr("x", d => xScale(d.data.year))
         .attr("y", d => yScale(d[1]))
         .attr("width", xScale.bandwidth())
         .attr("height", d => yScale(d[0]) - yScale(d[1]))
-        .attr("fill", colorScale(series.key));
+        .attr("fill", colorScale(serie.key));
   });
 
 

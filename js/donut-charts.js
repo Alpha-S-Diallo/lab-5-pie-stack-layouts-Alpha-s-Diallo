@@ -30,7 +30,7 @@ const drawDonutCharts = (data) => {
 
     const arcGenerator = d3.arc()
       .startAngle(d => d.startAngle)
-      .endAngle(d => d.endAngle)
+      .endAngle(d => d.endAngle) 
       .innerRadius(60)
       .outerRadius(100)
       .padAngle(0.02)

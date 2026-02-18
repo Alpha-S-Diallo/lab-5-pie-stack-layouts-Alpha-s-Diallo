@@ -13,3 +13,16 @@ const formatsInfo = [
   {id: "streaming", label: "Streaming", color: "#ED7864"},
   {id: "other", label: "Other", color: "#ABABAB"},
 ];
+
+
+const genresInfo = [
+  {id: "Action", color: "#e63946"},
+  {id: "Adventure", color: "#2a9d8f"},
+  {id: "Comedy", color: "#e9c46a"},
+  {id: "Drama", color: "#457b9d"},
+  {id: "Horror", color: "#6a0572"},
+  {id: "Thriller or Suspense", color: "#f4a261"},
+  {id: "Romantic Comedy", color: "#e76f51"},
+  {id: "Musical", color: "#2ec4b6"},
+  {id: "Documentary", color: "#a8dadc"},
+];
